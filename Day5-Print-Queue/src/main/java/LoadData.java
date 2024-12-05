@@ -55,9 +55,9 @@ public class LoadData {
                 // Si la línea tiene formato X,Y,Z,...
                 else if (linea.contains(",")) {
                     String[] partes = linea.split(",");
-                    List<Integer> nums = new ArrayList<Integer>();
-                    for (int i = 0; i < partes.length; i++) {
-                        nums.add(Integer.parseInt(partes[i].trim()));
+                    List<Integer> nums = new ArrayList<>();
+                    for (String parte : partes) {
+                        nums.add(Integer.parseInt(parte.trim()));
                     }
                     lineArrays.add(nums);
                 }
