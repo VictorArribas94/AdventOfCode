@@ -1,0 +1,3 @@
+rootProject.name = 'AdventOfCode'
+include 'Day4-Ceres-Search'
+

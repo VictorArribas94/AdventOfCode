@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.example'
+version = '1.0'
+sourceCompatibility = '21' // Java 21
+targetCompatibility = '21' // Compiled on Java 21
+
+repositories {
+    mavenCentral() // Dependencies Repository
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+    implementation 'org.springframework.boot:spring-boot-starter'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
