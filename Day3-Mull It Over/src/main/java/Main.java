@@ -4,9 +4,9 @@ package Java;
 import java.io.IOException;
 import java.util.Arrays;
 
-import static Java.LoadData.loadStringsMatchingPattern;
-import static Java.Logic.*;
-import static Java.Multiplication.getOperations;
+import static data.LoadData.loadStringsMatchingPattern;
+import static logic.Logic.*;
+import static objects.Multiplication.getOperations;
 
 public class Main {
 

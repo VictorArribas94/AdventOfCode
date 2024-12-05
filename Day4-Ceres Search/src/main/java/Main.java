@@ -1,9 +1,7 @@
-package Java;
-
 import java.io.IOException;
 
-import static Java.LoadData.loadFilteredGrid;
-import static Java.Logic.*;
+import static data.LoadData.loadFilteredGrid;
+import static logic.Logic.*;
 
 public class Main {
 

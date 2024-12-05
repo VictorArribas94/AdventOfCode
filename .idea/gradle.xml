@@ -10,7 +10,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Day4-Ceres-Search" />
+            <option value="$PROJECT_DIR$/Day1-Historian Hysteria" />
+            <option value="$PROJECT_DIR$/Day2-Red-Nosed Reports" />
+            <option value="$PROJECT_DIR$/Day3-Mull It Over" />
+            <option value="$PROJECT_DIR$/Day4-Ceres Search" />
           </set>
         </option>
       </GradleProjectSettings>

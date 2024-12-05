@@ -1,9 +1,7 @@
-package Java;
-
 import java.io.IOException;
 
-import static Java.LoadData.loadColumnsFromFile;
-import static Java.Logic.*;
+import static data.LoadData.loadColumnsFromFile;
+import static logic.Logic.*;
 
 public class Main {
 

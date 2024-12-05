@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Day 1-Historian Hysteria/Day 1-Historian Hysteria.iml" filepath="$PROJECT_DIR$/Day 1-Historian Hysteria/Day 1-Historian Hysteria.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Day2-Red-Nosed Reports/Day2-Red-Nosed Reports.iml" filepath="$PROJECT_DIR$/Day2-Red-Nosed Reports/Day2-Red-Nosed Reports.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Day3-Mull It Over/Day3-Mull It Over.iml" filepath="$PROJECT_DIR$/Day3-Mull It Over/Day3-Mull It Over.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Day4-Ceres Search/Day4-Ceres Search.iml" filepath="$PROJECT_DIR$/Day4-Ceres Search/Day4-Ceres Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Day3-Mull It Over/AdventOfCode.Day3-Mull_It_Over.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Day3-Mull It Over/AdventOfCode.Day3-Mull_It_Over.main.iml" />
     </modules>
   </component>
 </project>
