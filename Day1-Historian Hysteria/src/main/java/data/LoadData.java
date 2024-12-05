@@ -1,4 +1,6 @@
-package Java;
+package data;
+
+import objects.Lists;
 
 import java.io.BufferedReader;
 import java.io.IOException;

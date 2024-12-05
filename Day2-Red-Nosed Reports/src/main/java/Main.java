@@ -1,10 +1,12 @@
-package Java;
+
+import data.LoadData;
+import logic.Logic;
 
 import java.io.IOException;
 
-import static Java.LoadData.loadRowsFromFile;
-import static Java.Logic.countSafeLevels;
-import static Java.Logic.countSafeLevelsWithProblemDampener;
+import static data.LoadData.loadRowsFromFile;
+import static logic.Logic.countSafeLevels;
+import static logic.Logic.countSafeLevelsWithProblemDampener;
 
 public class Main {
 

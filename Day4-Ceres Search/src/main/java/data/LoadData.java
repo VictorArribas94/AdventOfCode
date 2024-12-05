@@ -1,4 +1,4 @@
-package Java;
+package data;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,7 +15,7 @@ public class LoadData {
         try {
             char[][] grid = loadFilteredGrid(FILE_NAME, "XMAS");
 
-            // Imprimir el array bidimensional
+            // Print Array
             for (char[] row : grid) {
                 System.out.println(new String(row));
             }
@@ -27,7 +27,7 @@ public class LoadData {
     public static char[][] loadFilteredGrid(String fileName, String allowedChars) throws IOException {
         List<char[]> grid = new ArrayList<>();
 
-        // Leer archivo usando ClassLoader
+        // ClassLoader to get File inside classpath
         try (BufferedReader br = new BufferedReader(new InputStreamReader(
                 Objects.requireNonNull(LoadData.class.getClassLoader().getResourceAsStream(fileName))))) {
             String line;
@@ -35,14 +35,13 @@ public class LoadData {
                 char[] row = new char[line.length()];
                 for (int i = 0; i < line.length(); i++) {
                     char c = line.charAt(i);
-                    // Reemplazar caracteres no permitidos por '.'
+                    // Change not needed characters for '.'
                     row[i] = allowedChars.indexOf(c) != -1 ? c : '.';
                 }
                 grid.add(row);
             }
         }
 
-        // Convertir la lista de filas a un array bidimensional
         return grid.toArray(new char[0][]);
     }
 }

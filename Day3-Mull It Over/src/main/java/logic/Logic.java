@@ -1,4 +1,6 @@
-package Java;
+package logic;
+
+import objects.Multiplication;
 
 import java.util.ArrayList;
 import java.util.List;

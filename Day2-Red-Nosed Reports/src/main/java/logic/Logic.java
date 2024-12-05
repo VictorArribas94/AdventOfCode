@@ -1,5 +1,4 @@
-package Java;
-
+package logic;
 
 public class Logic {
 

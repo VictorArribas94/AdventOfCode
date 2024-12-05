@@ -1,11 +1,13 @@
-package Java;
+package logic;
+
+import objects.Lists;
 
 import java.util.List;
 import java.util.stream.IntStream;
 
 public class Logic {
 
-    static Lists orderLists(final Lists lists){
+    public static Lists orderLists(final Lists lists){
         return Lists.builder()
                 .listA(orderList(lists.getListA()))
                 .listB(orderList(lists.getListB()))
@@ -17,7 +19,7 @@ public class Logic {
         return list;
     }
 
-    static Integer getSumOfDifferences(List<Integer> listA, List<Integer> listB) {
+    public static Integer getSumOfDifferences(List<Integer> listA, List<Integer> listB) {
         if (listA.size() != listB.size()) {
             return -1;
         }
@@ -27,7 +29,7 @@ public class Logic {
                 .sum();
     }
 
-    static Integer getSumOfAppearances(List<Integer> listA, List<Integer> listB) {
+    public static Integer getSumOfAppearances(List<Integer> listA, List<Integer> listB) {
         if (listA.size() != listB.size()) {
             return -1;
         }
