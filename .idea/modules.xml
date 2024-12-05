@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Day1-Historian Hysteria/AdventOfCode.Day1-Historian_Hysteria.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Day1-Historian Hysteria/AdventOfCode.Day1-Historian_Hysteria.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Day3-Mull It Over/AdventOfCode.Day3-Mull_It_Over.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Day3-Mull It Over/AdventOfCode.Day3-Mull_It_Over.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Day5-Print-Queue/AdventOfCode.Day5-Print-Queue.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Day5-Print-Queue/AdventOfCode.Day5-Print-Queue.main.iml" />
     </modules>
   </component>
 </project>

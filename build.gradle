@@ -1,0 +1,45 @@
+plugins {
+    id 'java'
+}
+
+//group = 'com.example'
+version = '1.0'
+sourceCompatibility = '21'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+}
+
+subprojects {
+    repositories {
+        mavenCentral()
+    }
+
+    apply {
+        plugin('java-library')
+    }
+
+    dependencies {
+        compileOnly 'org.projectlombok:lombok:1.18.24'
+        annotationProcessor 'org.projectlombok:lombok:1.18.24'
+        //implementation 'org.slf4j:slf4j-api:2.0.9'
+        //implementation 'org.springframework.boot:spring-boot-starter'
+        //testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    }
+
+    java {
+        toolchain{
+            languageVersion = JavaLanguageVersion.of(17)
+        }
+    }
+
+    test {
+        useJUnitPlatform()
+    }
+}
