@@ -9,8 +9,8 @@ public class Logic {
         }
 
         int counter = 0;
-        for(int i=0; i < levels.length; i++){
-            if(isSafe(levels[i])){
+        for (int[] level : levels) {
+            if (isSafe(level)) {
                 counter++;
             }
         }
@@ -45,8 +45,8 @@ public class Logic {
         }
 
         int counter = 0;
-        for(int i=0; i < levels.length; i++){
-            if(isSafeWithProblemDampener(levels[i])){
+        for (int[] level : levels) {
+            if (isSafeWithProblemDampener(level)) {
                 counter++;
             }
         }

@@ -1,7 +1,3 @@
-
-import data.LoadData;
-import logic.Logic;
-
 import java.io.IOException;
 
 import static data.LoadData.loadRowsFromFile;
