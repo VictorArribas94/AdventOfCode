@@ -4,7 +4,7 @@ plugins {
 
 //group = 'com.example'
 version = '1.0'
-sourceCompatibility = '17'
+javaVersion = '17'
 
 repositories {
     mavenCentral()
@@ -35,7 +35,7 @@ subprojects {
 
     java {
         toolchain{
-            languageVersion = JavaLanguageVersion.of(17)
+            languageVersion = JavaLanguageVersion.of(javaVersion as int)
         }
     }
 
