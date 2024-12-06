@@ -27,3 +27,14 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+
+### Gradle ###
+# Configuración local de Gradle
+.gradle/
+build/
+gradle.properties
+
+# Archivos y carpetas de IntelliJ IDEA
+*.iml
+.idea/
